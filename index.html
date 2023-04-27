@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Junior Design</title>
-</head>
-<body>
-  <div id="content">
-    <div class="header-menu">
-      <div class="logo">FOUNDATION</div>
-      <div class="links">
-        <p><a href="#">Portfolio</a></p>
-        <p><a href="#">Team</a></p>
-        <p><a href="#">Focuses</a></p>
-        <p><a href="#">News</a></p>
-        <p><a href="#">About</a></p>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Design</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-menu">
+        <div class="header-menu__logo">FOUNDATION</div>
+        <div class="header-menu__links">
+          <p><a class="header-menu_item" href="#">Portfolio</a></p>
+          <p><a class="header-menu_item" href="#">Team</a></p>
+          <p><a class="header-menu_item" href="#">Focuses</a></p>
+          <p><a class="header-menu_item" href="#">News</a></p>
+          <p><a class="header-menu_item" href="#">About</a></p>
+        </div>
+      </div>
+      <div class="hero">
+        <p class="hero__text">
+          WE INVEST IN PEOPLE BUILDING THE FUTURE OF OUR DIGITAL WORLD
+        </p>
+      </div>
+      <div class="focuses">
+        <div class="focuses__title">
+          <img class="focuses__title__img" src="./imgs/icon.svg" alt="icon">
+          <p class="focuses__title__text">MAIN FOCUSES</p>
+        </div>
+        <hr>
+        <div class="focuses__cards">
+          <div class="focuses__cards__credit">
+            <img src="./imgs/Credit.svg" alt="Credit">
+            <h1 class="focuses__cards__credit__header">Credit</h1>
+            <p class="focuses__cards__credit__text">We provide structured credit to growth stage companies, including early capital for Yieldstreet, Dave, and Rezi.</p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="focuses__cards__infra">
+            <img src="./imgs/About.svg" alt="About">
+            <h1 class="focuses__cards__infra__header">Infra</h1>
+            <p class="focuses__cards__infra__text">We invest in the world's best DeFi and Web3 companies, including early bets on Goldfinch, Fuel, and Subspace.</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="hero">
-      <p>
-        WE INVEST IN PEOPLE BUILDING THE FUTURE OF OUR DIGITAL WORLD
-      </p>
-    </div>
-    <div class="focuses">
-      <div class="main-focuses">
-        <img src="./assets/imgs/icon.svg" alt="icon">
-        <p>MAIN FOCUSES</p>
-      </div>
-    </div>
-  </div>
-<script src="./index.js"></script>
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
