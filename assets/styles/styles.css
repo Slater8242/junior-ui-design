@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0C0D0E;
+}
+
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 4.5rem;
+}
+
+.links{
+  display: flex;
+}
+
+.links p{
+  margin: 0 0 0 2.5rem;
+}
+
+.links p a {
+  text-decoration: none;
+  color: #0C0D0E;
+}
+
+.hero{
+  margin: 9.5rem 4.5rem;
+}
+
+.hero p{
+  font-size: 80px;
+  line-height: 94px;
+  margin: 0;
+}
