@@ -43,16 +43,49 @@ body{
   margin: 0;
 }
 
-.focuses{
+.section{
   margin-top: 6.5rem;
 }
 
-.focuses__title{
+.title{
   display: flex;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(12, 13, 14, 0.64);
 }
 
-.focuses__title__img{
+.title__img{
   margin-right: 1rem;
+}
+
+hr{
+  margin-bottom: 2.5rem;
+  border-top: 1px solid rgba(12, 13, 14, 0.64);
+}
+
+.focuses__cards{
+  display: flex;
+}
+
+.focuses__card{
+  text-align: right;
+  width: 100%;
+}
+
+.focuses__card__header{
+  text-align: left;
+}
+
+.focuses__card__text{
+  width: 24.5rem;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(12, 13, 14, 0.64);
+}
+
+.vertical-line{
+  border-left: 1px solid #0C0D0E;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+  opacity: 0.12;
 }
