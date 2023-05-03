@@ -167,3 +167,39 @@ hr{
 .team-members__img{
   margin-bottom: 4rem;
 }
+
+.footer{
+  display: flex;
+}
+
+.links{
+  display: flex;
+}
+
+.link-block{
+  margin-right: 10rem;
+}
+
+.link-block__text{
+  margin-bottom: 0.25rem;
+}
+
+.link-block__anchor{
+  text-decoration: none;
+  color: #0C0D0E;
+  font-weight: 400;
+}
+
+.description{
+  margin-left: 10rem;
+  margin-right: 5rem;
+  max-width: 24.5rem;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0C0D0E;
+  opacity: 0.48;
+}
+
+.social-img{
+  margin-right: 1.5rem;
+}
