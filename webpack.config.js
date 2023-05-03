@@ -4,18 +4,18 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 
 module.exports = {
-  entry: "./index.js",
+  entry: "./src/js/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./index.html",
+      template: "./src/index.html",
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: "assets", to: "" },
-        // { from: "other", to: "public" },
+        { from: "./src/css", to: "styles" },
+        { from: "./src/img", to: "imgs" },
       ],
     }),
   ],

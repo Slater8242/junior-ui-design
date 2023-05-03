@@ -12,15 +12,19 @@ body{
   color: #0C0D0E;
 }
 
-.container{
-  margin-top: 2rem;
-  margin-left: 4.5rem;
-  margin-right: 4.5rem;
+.content{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .header-menu{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 1.75rem;
 }
 
 .header-menu__links{
@@ -47,35 +51,41 @@ body{
   margin-top: 6.5rem;
 }
 
-.title{
+.section-header__title{
   display: flex;
   margin-bottom: 1.5rem;
 }
 
-.title__img{
+.section-header__title__img{
   margin-right: 1rem;
 }
 
 hr{
-  margin-bottom: 2.5rem;
-  border-top: 1px solid rgba(12, 13, 14, 0.64);
+  border-top: 1px solid rgba(12, 13, 14, 0.4);
 }
 
 .focuses__cards{
   display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
 }
 
-.focuses__card{
+.focuses__cards__card{
+  width: 38.5rem;
   text-align: right;
-  width: 100%;
 }
 
-.focuses__card__header{
+.focuses__cards__card__img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.focuses__cards__card__header{
   text-align: left;
 }
 
-.focuses__card__text{
-  width: 24.5rem;
+.small-text{
+  max-width: 24.5rem;
   text-align: left;
   font-weight: 400;
   font-size: 16px;
@@ -83,9 +93,80 @@ hr{
   color: rgba(12, 13, 14, 0.64);
 }
 
+.big-text{
+  text-align: left;
+  font-size: 40px;
+  line-height: 47px;
+}
+
 .vertical-line{
   border-left: 1px solid #0C0D0E;
   margin-left: 1.75rem;
   margin-right: 1.75rem;
   opacity: 0.12;
+}
+
+.section-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-header__anchor{
+  display: flex;
+  text-decoration: none;
+}
+
+.section-header__anchor__text{
+  font-weight: 400;
+  font-size: 12px;
+  color: #621AD7;
+  margin-right: 0.75rem;
+}
+
+.section-header__anchor__img{
+  width: 12px;
+  height: 12px;
+}
+
+.portfolio__brands{
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio__brands__brand__img{
+  padding-top: 1.75rem;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 5.5rem;
+}
+
+.news__content{
+  display: flex;
+  margin-top: 1.75rem;
+}
+
+.news__content__img{
+  margin-right: 3.5rem;
+}
+
+.news__content__text{
+  max-width: 31.5rem;
+}
+
+.team{
+  margin-top: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team_text{
+  max-width: 35rem;
+}
+
+.team__members{
+  display: flex;
+}
+
+.team__member__img{
+  margin-bottom: 4rem;
 }
