@@ -170,28 +170,52 @@ hr{
 
 .footer{
   display: flex;
+  justify-content: space-between;
+}
+
+.footer-left{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-right{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10rem;
 }
 
 .links{
   display: flex;
 }
 
-.link-block{
+.link{
   margin-right: 10rem;
 }
 
-.link-block__text{
+.link__text{
   margin-bottom: 0.25rem;
 }
 
-.link-block__anchor{
+.link__anchor{
   text-decoration: none;
   color: #0C0D0E;
   font-weight: 400;
 }
 
+.date{
+  margin-top: 11.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.date h4{
+  font-weight: 400;
+}
+
+.desc-socials{
+  display: flex;
+}
+
 .description{
-  margin-left: 10rem;
   margin-right: 5rem;
   max-width: 24.5rem;
   font-weight: 400;
@@ -202,4 +226,23 @@ hr{
 
 .social-img{
   margin-right: 1.5rem;
+}
+
+.subscribe-form{
+  margin-top: 4.5rem;
+  max-height: 5.25rem;
+  /* opacity: 0.18; */
+  border-bottom: 1px solid #0C0D0E;
+}
+
+.form-input, .form-button{
+  margin-top: 1rem;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+.form-button{
+  color: #621AD7;
+  cursor: pointer;
 }
