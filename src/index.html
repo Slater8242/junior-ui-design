@@ -11,11 +11,11 @@
       <div class="header-menu">
         <div class="header-menu__logo">FOUNDATION</div>
         <nav class="header-menu__links">
-          <a class="header-menu_item" href="#">Portfolio</a>
-          <a class="header-menu_item" href="#">Team</a>
-          <a class="header-menu_item" href="#">Focuses</a>
-          <a class="header-menu_item" href="#">News</a>
-          <a class="header-menu_item" href="#">About</a>
+          <a class="header-menu__item" href="#">Portfolio</a>
+          <a class="header-menu__item" href="#">Team</a>
+          <a class="header-menu__item" href="#">Focuses</a>
+          <a class="header-menu__item" href="#">News</a>
+          <a class="header-menu__item" href="#">About</a>
         </nav>
       </div>
       <div class="hero">
@@ -25,7 +25,7 @@
       </div>
       <div class="section">
         <div class="section-header">
-          <h2 class="section-header__title">MAIN FOCUSES</h2>
+          <p class="section-header__title">MAIN FOCUSES</p>
         </div>
         <div class="focuses">
           <div class="focuses__card vertical-line">
@@ -42,35 +42,35 @@
       </div>
       <div class="section">
         <div class="section-header">
-          <h2 class="section-header__title">PORTFOLIO</h2>
+          <p class="section-header__title">PORTFOLIO</p>
           <a class="section-header__anchor" href="#">FULL PORTFOLIO</a>
         </div>
         <div class="portfolio">
-          <div class="vertical-line">
-            <img class="portfolio__img" src="./imgs/bravoo.svg" alt="bravoo_logo">
+          <div class="portfolio-item">
+            <img src="./imgs/bravoo.svg" alt="bravoo_logo">
             <p>Bravoo</p>
           </div>
-          <div class="vertical-line">
-            <img class="portfolio__img" src="./imgs/healthQuarters.svg" alt="bravoo_logo">
+          <div class="portfolio-item">
+            <img src="./imgs/healthQuarters.svg" alt="bravoo_logo">
             <p>Health Quarters</p>
           </div>
-          <div class="vertical-line">
-            <img class="portfolio__img" src="./imgs/yieldstreet.svg" alt="bravoo_logo">
+          <div class="portfolio-item">
+            <img src="./imgs/yieldstreet.svg" alt="bravoo_logo">
             <p>Yieldstreet</p>
           </div>
-          <div>
-            <img class="portfolio__img" src="./imgs/suma.svg" alt="bravoo_logo">
+          <div class="portfolio-item">
+            <img src="./imgs/suma.svg" alt="bravoo_logo">
             <p>Suma</p>
           </div>
         </div>
       </div>
       <div class="section">
         <div class="section-header">
-          <h2 class="section-header__title">LATEST NEWS</h2>
+          <p class="section-header__title">LATEST NEWS</p>
           <a class="section-header__anchor" href="#">MORE NEWS</a>
         </div>
         <div class="news">
-          <img class="news__img" src="./imgs/news-image.png" alt="man-image">
+          <img src="./imgs/news-image.png" alt="man-image">
           <div class="news__text">
             <p class="small-text">March 28</p>
             <h1 class="big-text">Upgrade Raises $280 Million at $6 Billion Valuation</h1>
@@ -79,7 +79,7 @@
       </div>
       <div class="section">
         <div class="section-header">
-          <h2 class="section-header__title">TEAM</h2>
+          <p class="section-header__title">TEAM</p>
           <a class="section-header__anchor" href="#">MEET OUR TEAM</a>
         </div>
         <div class="team">
@@ -90,13 +90,13 @@
             </div>
           </div>
           <div class="team-members">
-            <div>
-              <img class="team-members__img" src="./imgs/member-image.png" alt="member1">
+            <div class="member">
+              <img src="./imgs/member-image.png" alt="member1">
               <p>Rennick Palley</p>
               <p class="small-text"> Founder, Chief investmeent officer</p>
             </div>
-            <div>
-              <img class="team-members__img" src="./imgs/member-image-2.png" alt="member1">
+            <div class="member">
+              <img src="./imgs/member-image-2.png" alt="member2">
               <p>Miles Harrell</p>
               <p class="small-text"> Chief operating officer</p>
             </div>
@@ -107,44 +107,30 @@
         <div class="footer">
           <div class="footer-left">
             <div class="links">
-              <div class="link">
-                <p class="link__text">
-                  <a class="link__anchor" href="#">Contacts</a>
-                </p>
-                <p class="link__text">
-                  <a class="link__anchor" href="#">Jobs</a>
-                </p>
-                <p class="link__text">
-                  <a class="link__anchor" href="#">LP Login</a>
-                </p>
+              <div class="link-item">
+                <a class="link__anchor" href="#">Contacts</a>
+                <a class="link__anchor" href="#">Jobs</a>
+                <a class="link__anchor" href="#">LP Login</a>
               </div>
-              <div class="link">
-                <p class="link__text">
-                  <a class="link__anchor" href="#">Privacy & Terms</a>
-                </p>
-                <p class="link__text">
-                  <a class="link__anchor" href="#">Disclosures</a>
-                </p>
+              <div class="link-item">
+                <a class="link__anchor" href="#">Privacy & Terms</a>
+                <a class="link__anchor" href="#">Disclosures</a>
               </div>
-            </div>
-            <div class="date">
-              <h4>© 2021 Stratos LP</h4>
+              <p class="date">© 2021 Stratos LP</p>
             </div>
           </div>
           <div class="footer-right">
-            <div class="desc-socials">
-              <div class="description">
-                <p>Stratos Technologies empowers founders to achieve their vision through rigorous engagement, strategic guidance, and capital.</p>
-              </div>
-              <div class="socials">
-                <img class="social-img" src="./imgs/youtube.svg" alt="youtube">
-                <img class="social-img" src="./imgs/twitter.svg" alt="youtube">
-                <img class="social-img" src="./imgs/medium.svg" alt="youtube">
-                <img class="social-img" src="./imgs/apple-podcast.svg" alt="youtube">
-              </div>
+            <div class="description">
+              <p>Stratos Technologies empowers founders to achieve their vision through rigorous engagement, strategic guidance, and capital.</p>
+            </div>
+            <div class="socials">
+              <a href="#"><img src="./imgs/youtube.svg" alt="youtube"></a>
+              <a href="#"><img src="./imgs/twitter.svg" alt="twitter"></a>
+              <a href="#"><img src="./imgs/medium.svg" alt="medium"></a>
+              <a href="#"><img src="./imgs/apple-podcast.svg" alt="podcast"></a>
             </div>
             <form class="subscribe-form">
-              <h3>Stay tuned</h3>
+              <h3 class="subscribe-form__text">Stay tuned</h3>
               <input class="form-input" type="text" name="email" id="email" placeholder="email@example.com">
               <button class="form-button">Subscribe</button>
             </form>
