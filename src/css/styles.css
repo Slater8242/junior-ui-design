@@ -196,8 +196,13 @@ body{
   padding-right: 28px;
   padding-left: 28px;
 }
+
 .member:last-child{
   padding-right: 0;
+}
+
+.member img{
+  margin-bottom: 64px;
 }
 
 .footer{
