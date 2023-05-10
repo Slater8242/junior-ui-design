@@ -195,16 +195,18 @@ body{
 }
 
 .footer{
-  display: inline-grid;
+  display: grid;
   grid-auto-flow: column;
-  column-gap: 333px;
+  /* column-gap: 333px; */
   padding-top: 40px;
   padding-bottom: 40px;
+  justify-content: space-between;
 }
 
 .footer-left{
   display: grid;
-  grid-auto-flow: row;
+  /* grid-auto-flow: row; */
+  column-gap: 160px;
 }
 
 .footer-right{
@@ -213,6 +215,7 @@ body{
   grid-template-rows: auto auto auto;
   column-gap: 80px;
   row-gap: 73px;
+  justify-content: space-between;
 }
 
 .links{
