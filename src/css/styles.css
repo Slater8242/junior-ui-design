@@ -20,9 +20,9 @@ body{
 
 .content{
   margin: 0 auto;
-  max-width: 1440px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1400px;
+  padding-left: 56px;
+  padding-right: 56px;
   box-sizing: border-box;
 }
 
@@ -101,13 +101,18 @@ body{
 .focuses{
   display: flex;
   justify-content: space-between;
-  column-gap: 1.75rem;
-  margin-top: 2.5rem;
 }
 
 .focuses__card{
   width: 38.5rem;
   text-align: right;
+  padding-top: 40px;
+  margin-bottom: 48px;
+}
+
+.focuses__card:first-child {
+  border-right: var(--borderStyle);
+  padding-right: 28px;
 }
 
 .focuses__card__img{
@@ -143,6 +148,7 @@ body{
   display: grid;
   grid-template-rows: auto auto;
   row-gap: 88px;
+  margin-bottom: 48px;
 }
 
 .portfolio-item:first-child{
@@ -264,7 +270,7 @@ body{
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
-  row-gap: 18px;
+  row-gap: 8px;
   border-bottom: 1px solid rgba(12, 13, 14, 0.18);
 }
 
@@ -279,12 +285,16 @@ body{
   font-size: 16px;
 }
 
+.form-input{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .form-button{
   color: #621AD7;
   cursor: pointer;
   display: inline-grid;
   grid-template-columns: auto auto;
-  column-gap: 0.5rem;
   align-items: center;
 }
 
